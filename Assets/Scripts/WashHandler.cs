@@ -16,6 +16,8 @@ public class WashHandler : MonoBehaviour
     public List<Sprite> handWashSprites;
     int currentSprite;
 
+    AudioManager audioManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +40,9 @@ public class WashHandler : MonoBehaviour
 
         handWash = GameObject.Find("HandSprite");
         currentSprite = 0;
+
+        audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
+        audioManager.PlaySound("Music");
     }
 
     // Update is called once per frame
@@ -59,6 +64,8 @@ public class WashHandler : MonoBehaviour
 
             currentSprite++;
             handWash.GetComponent<SpriteRenderer>().sprite = handWashSprites[currentSprite];
+
+            audioManager.PlaySound("Complete");
         }
 
         UpdateTimer();
@@ -77,6 +84,8 @@ public class WashHandler : MonoBehaviour
                 GameObject temp = currentSection[0];
                 currentSection.RemoveAt(0);
                 Destroy(temp);
+
+                audioManager.PlaySound("Click");
             }
         }
     }
