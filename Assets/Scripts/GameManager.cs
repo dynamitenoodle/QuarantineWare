@@ -20,6 +20,12 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private float quitHoldTime;
 
+    // Menu Inspector Fields
+    [SerializeField]
+    private GameObject menuUI;
+    [SerializeField]
+    private GameObject creditsUI;
+
     // Quit variables
     private RectTransform progressTransform;
     private Image progressImage;
@@ -50,6 +56,14 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(0);
         currentSceneIndex = 0;
     }
+    
+    // Call this method to go to the lose screen
+    public void LoadLoseScreen()
+    {
+        // Loads the second scene. Make sure the menu build index is 1
+        SceneManager.LoadScene(1);
+        currentSceneIndex = 1;
+    }
 
     // Call this method when the current minigame is over
     public void StartNextMinigame()
@@ -66,10 +80,9 @@ public class GameManager : MonoBehaviour
     // Call this method when the current minigame is over
     public void StartRandomMinigame()
     {
-        int nextSceneIndex = Random.Range(1, SceneManager.sceneCountInBuildSettings - 1); // Exclude menu and current scene
+        int nextSceneIndex = Random.Range(2, SceneManager.sceneCountInBuildSettings - 1); // Exclude menu and current scene
         
-        // Make sure it doesn't load the same minigame
-        if (nextSceneIndex >= currentSceneIndex)
+        if (nextSceneIndex >= currentSceneIndex && currentSceneIndex < SceneManager.sceneCountInBuildSettings - 1)
             nextSceneIndex++;
 
         // Load the selected scene in the build index
@@ -81,6 +94,13 @@ public class GameManager : MonoBehaviour
     public void QuitApplication()
     {
         Application.Quit();
+    }
+
+    // Disables and enables credits
+    public void ToggleCredits()
+    {
+        menuUI.SetActive(!menuUI.activeSelf);
+        creditsUI.SetActive(!creditsUI.activeSelf);
     }
     #endregion
 

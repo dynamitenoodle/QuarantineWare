@@ -100,12 +100,19 @@ public class WashHandler : MonoBehaviour
         if (sectionTimer <= 0)
         {
             // End the minigame
+            GameObject.Find("Game Manager").GetComponent<GameManager>().LoadLoseScreen();
         }
     }
 
     // Sets the current section to the number inputted
     void SetSection()
     {
+        // Win
+        if (sections.Count == 0)
+        {
+            GameObject.Find("Game Manager").GetComponent<GameManager>().StartRandomMinigame();
+        }
+
         if (!sections[0].activeSelf)
             sections[0].SetActive(true);
 
