@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4580530051794148727}
   - component: {fileID: 1666649694516189716}
+  - component: {fileID: 3193872072093648080}
   m_Layer: 0
   m_Name: 1Blue
   m_TagString: Untagged
@@ -80,3 +81,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &3193872072093648080
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5421209015897065430}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 2.4999998

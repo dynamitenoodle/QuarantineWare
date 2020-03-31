@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class WashHandler : MonoBehaviour
 {
-    public List<List<GameObject>> Sections;
+    public List<GameObject> Sections;
     int currentSection;
 
     // Start is called before the first frame update
     void Start()
     {
-        current = 0;
-        foreach (Transform child in gameObject.transform.child)
+        currentSection = 0;
+        for (int i = 0; i < gameObject.transform.childCount; i++)
+        {
+            
+        }
     }
 
     // Update is called once per frame
