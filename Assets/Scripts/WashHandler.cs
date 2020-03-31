@@ -52,6 +52,12 @@ public class WashHandler : MonoBehaviour
 
         if (currentSection.Count == 0)
         {
+            if (sections.Count == 1)
+            {
+                // Game ends with a win
+
+            }
+
             // Destroy the current section
             GameObject temp = sections[0];
             sections.RemoveAt(0);
@@ -99,7 +105,8 @@ public class WashHandler : MonoBehaviour
 
         if (sectionTimer <= 0)
         {
-            // End the minigame
+            // Game Ends with a lose
+
         }
     }
 
