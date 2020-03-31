@@ -1,0 +1,439 @@
+fileFormatVersion: 2
+guid: 4158fb566462b7143a8d2ae624d3c479
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8779095476193998884
+    second: Handwashing_0
+  - first:
+      213: 6201912815013193026
+    second: Handwashing_1
+  - first:
+      213: -6594519882022473422
+    second: Handwashing_2
+  - first:
+      213: -8460335384178522589
+    second: Handwashing_3
+  - first:
+      213: -6897117062305612606
+    second: Handwashing_4
+  - first:
+      213: -6431881866737688689
+    second: Handwashing_5
+  - first:
+      213: 2118952686310025974
+    second: Handwashing_6
+  - first:
+      213: -568569222373194903
+    second: Handwashing_7
+  - first:
+      213: 717342234903196344
+    second: Handwashing_8
+  - first:
+      213: -555844014353297119
+    second: Handwashing_9
+  - first:
+      213: -9048242728847455252
+    second: Handwashing_10
+  - first:
+      213: -1310752844194951970
+    second: Handwashing_11
+  - first:
+      213: 2043982781434198009
+    second: Handwashing_12
+  - first:
+      213: -4490603469819469508
+    second: Handwashing_13
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Handwashing_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1120
+        width: 242
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7756896fbbb720945b33a58ec41dc1e3
+      internalID: -8779095476193998884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handwashing_1
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1096
+        width: 242
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09988e751dce2644b9ca2f7e96da50a3
+      internalID: 6201912815013193026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handwashing_2
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1120
+        width: 242
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae278a3c1a78c34d939e7f8c710b454
+      internalID: -6594519882022473422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handwashing_3
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1096
+        width: 242
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72af14c25c2ee848812015d53dad092
+      internalID: -8460335384178522589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handwashing_4
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 779
+        width: 242
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b78f328e329e2845820c300cf48010d
+      internalID: -6897117062305612606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handwashing_5
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 755
+        width: 242
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43947e4bb7e5ce04386c351a198d1a70
+      internalID: -6431881866737688689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handwashing_6
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 755
+        width: 242
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330b86d4ef299594fadf6ee159ee7e77
+      internalID: 2118952686310025974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handwashing_7
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 755
+        width: 242
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44caaa5f19b02a343a8dd977ec158c96
+      internalID: -568569222373194903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handwashing_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 445
+        width: 242
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869cc7ea9dc349241a33485282aa317d
+      internalID: 717342234903196344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handwashing_9
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 443
+        width: 1
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661986fb5ae5a084c9839864e8835b5f
+      internalID: -555844014353297119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handwashing_10
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 445
+        width: 242
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356b99acbb9828846b9041a7be825950
+      internalID: -9048242728847455252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handwashing_11
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 445
+        width: 242
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fc260ba0b0fe642a637f71295e4b76
+      internalID: -1310752844194951970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handwashing_12
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 445
+        width: 242
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d37724017a6d148b2c5fedac82f2f1
+      internalID: 2043982781434198009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Handwashing_13
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 127
+        width: 242
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f0d6a8ee044014eb1de38df46a38dd
+      internalID: -4490603469819469508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
