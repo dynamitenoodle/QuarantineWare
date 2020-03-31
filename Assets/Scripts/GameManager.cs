@@ -8,11 +8,15 @@ public class GameManager : MonoBehaviour
 {
     private int currentSceneIndex;
 
+    // SFX
+    [SerializeField]
+    private AudioSource cancelSound;
+
     // Quit Inspector fields
     [SerializeField]
-    private GameObject QuitObject;
+    private GameObject quitObject;
     [SerializeField]
-    private GameObject QuitProgress;
+    private GameObject quitProgress;
     [SerializeField]
     private float quitHoldTime;
 
@@ -28,8 +32,8 @@ public class GameManager : MonoBehaviour
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
 
         currentQuitTime = 0;
-        progressTransform = QuitProgress.GetComponent<RectTransform>();
-        progressImage = QuitProgress.GetComponent<Image>();
+        progressTransform = quitProgress.GetComponent<RectTransform>();
+        progressImage = quitProgress.GetComponent<Image>();
     }
 
     // Update is called once per frame
@@ -92,7 +96,7 @@ public class GameManager : MonoBehaviour
                 // Check if pressing for first time
                 if (currentQuitTime == 0)
                 {
-                    QuitObject.SetActive(true);
+                    quitObject.SetActive(true);
                 }
                 // Check if the bar is full and return to menu
                 else if (currentQuitTime >= quitHoldTime)
@@ -102,7 +106,10 @@ public class GameManager : MonoBehaviour
 
                     // Reset everything
                     currentQuitTime = 0;
-                    QuitObject.SetActive(false);
+                    quitObject.SetActive(false);
+
+                    cancelSound.Play();
+
                     return; // No need to draw
                 }
 
@@ -122,13 +129,13 @@ public class GameManager : MonoBehaviour
                 if (currentQuitTime <= 0)
                 {
                     currentQuitTime = 0;
-                    QuitObject.SetActive(false);
+                    quitObject.SetActive(false);
                     return; // No need to draw
                 }
             }
 
             // Only draw when active
-            if (QuitObject.activeSelf)
+            if (quitObject.activeSelf)
             {
                 // Draw the progress
                 float percentage = currentQuitTime / quitHoldTime;
