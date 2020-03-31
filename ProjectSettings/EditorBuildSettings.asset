@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CrowdScene.unity
     guid: 8dc731d4c10ad6b4dbe0d9bf9ad94629
+  - enabled: 1
+    path: Assets/Scenes/AvoidPeople.unity
+    guid: 3d15038854c32dd4f8f5ba31915e9a9f
   m_configObjects: {}
