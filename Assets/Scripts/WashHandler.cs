@@ -52,6 +52,12 @@ public class WashHandler : MonoBehaviour
 
         if (currentSection.Count == 0)
         {
+            if (sections.Count == 1)
+            {
+                // Game ends with a win
+
+            }
+
             // Destroy the current section
             GameObject temp = sections[0];
             sections.RemoveAt(0);
@@ -107,12 +113,6 @@ public class WashHandler : MonoBehaviour
     // Sets the current section to the number inputted
     void SetSection()
     {
-        // Win
-        if (sections.Count == 0)
-        {
-            GameObject.Find("Game Manager").GetComponent<GameManager>().StartRandomMinigame();
-        }
-
         if (!sections[0].activeSelf)
             sections[0].SetActive(true);
 
