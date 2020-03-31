@@ -55,7 +55,7 @@ public class WashHandler : MonoBehaviour
             if (sections.Count == 1)
             {
                 // Game ends with a win
-
+                GameObject.Find("Game Manager").GetComponent<GameManager>().StartRandomMinigame();
             }
 
             // Destroy the current section
